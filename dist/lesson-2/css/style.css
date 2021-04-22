@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.container {
+  height: 400px;
+  background-color: #ddd;
+}
+
+/* boxのCSSを作成 */
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 4px;
+  background-color: green;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: center;
+  font-size: 24px;
+  color: white;
+}
