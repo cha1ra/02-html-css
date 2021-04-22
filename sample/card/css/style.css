@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+.card {
+  background-color: #eee;
+  width: 300px;
+  height: 400px;
+  margin: 16px;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  /* 背景画像の読み込み */
+  background-image: url("../img/image.jpg");
+  /* 背景画像の位置を中央に変更 */
+  background-position: center;
+  /* 背景画像の大きさをいい感じに調整 */
+  background-size: cover;
+
+  /* card-image を flexレイアウトに指定 */
+  display: flex;
+  /* 左右中央寄せ */
+  justify-content: center;
+  /* 上下中央寄せ */
+  align-items: center;
+}
+
+.card-title {
+  color: #fff;
+  font-size: 24px;
+  /* フォントの太さを指定 */
+  font-weight: bold;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 8px;
+}
